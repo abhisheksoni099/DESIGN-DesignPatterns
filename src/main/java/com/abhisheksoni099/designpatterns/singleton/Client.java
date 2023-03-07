@@ -1,6 +1,6 @@
 package com.abhisheksoni099.designpatterns.singleton;
 
-public class Client {
+class Client {
     public static void main(String[] args) {
         LoggerService loggerService1 = LoggerService.getInstance();
         LoggerService loggerService2 = LoggerService.getInstance();
